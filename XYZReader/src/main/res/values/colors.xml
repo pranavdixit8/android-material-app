@@ -20,7 +20,7 @@
 
     <color name="theme_primary">#2196f3</color>
     <color name="theme_primary_dark">#0069c0</color>
-    <color name="theme_primary_light">#6ec6ff</color>
+    <color name="theme_primary_light">#bbdefb</color>
     <color name="theme_accent">#e91e63</color>
     <color name="theme_accent_dark">#b0003a</color>
     <color name="theme_accent_light">#ff6090</color>
