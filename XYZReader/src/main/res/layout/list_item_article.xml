@@ -28,31 +28,29 @@
 
 
 
-            <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            <com.android.volley.toolbox.NetworkImageView
                 android:id="@+id/thumbnail"
                 android:transitionName="@string/enlarge_image"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_height="match_parent"
                 android:tint="@color/image_thumbnail_tint"
-                android:scaleType="fitXY"
-                android:layout_margin="@dimen/image_margin"
+                android:scaleType="centerCrop"
                 android:background="@color/theme_primary_light" />
 
-                <TextView
-                    android:id="@+id/article_title"
-                    style="@style/TextAppearance.AppCompat.Headline"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingLeft="16dp"
-                    android:paddingTop="16dp"
-                    android:paddingRight="16dp"
-                    android:paddingBottom="4dp"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:ellipsize="end"
-                    android:maxLines="4" />
+            <TextView
+                android:id="@+id/article_title"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="4dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:maxLines="4" />
 
 
 
@@ -63,9 +61,7 @@
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:paddingBottom="16dp"
+                android:padding="16dp"
                 android:textColor="@android:color/black"
                 android:maxLines="2"
                 android:ellipsize="end" />
